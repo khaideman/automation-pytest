@@ -17,7 +17,7 @@ class TestBankWebsite(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Chrome()
-        self.driver.get("http://www.example.com")
+        self.driver.get("https://parabank.parasoft.com/parabank/index.htm")
 
     def test_homepage(self):
         # Test if homepage is loaded successfully

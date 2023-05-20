@@ -10,8 +10,6 @@ Kunci = [
 
 # inisialisasi driver untuk browser Chrome
 driver = webdriver.Chrome()
-
-# set waktu tunggu implisit menjadi 10 detik
 driver.implicitly_wait(10)
 
 # dekorator untuk mengindikasikan bahwa fungsi ini adalah sebuah pytest
